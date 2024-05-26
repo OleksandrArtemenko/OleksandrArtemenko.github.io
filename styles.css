@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("background4.jpg");
+    background-size: cover;
+    background-position: center;
+    transition: background 0.5s ease;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+h1 {
+    color: white;
+    font-size: 3em;
+}
+.logo {
+    max-width: 100px;
+    height: auto;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li::before {
+    content: "\2022";
+    color: #007bff;
+    font-size: 1.7em;
+    margin-right: 5px;
+    font-weight: bolder;
+}
+.bot-address {
+    margin-top: 20px;
+    font-style: italic;
+    color: #6c757d;
+}
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #0056b3;
+}
